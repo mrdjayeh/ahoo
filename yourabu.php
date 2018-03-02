@@ -63,28 +63,36 @@ $emo=array (
 
 $text = array(
 '   😘 '.$tagged_name.' 😘 STICKER+MENTION COMMENT WALI FULL SCURE SITE HEI. 😘
- 😘👉 UNIQUE-TOP-REACT,TK 👈😘👉 UNIQUE BOT TEAM 👈😘 ',
+ 
+😘👉 UNIQUE-TOP-REACT,TK 👈😘👉 UNIQUE BOT TEAM 👈😘 ',
 
 '    🔰 TUMBI LGALO BOT ACHA CHAL RAHA HAI AYAN ALI KA. 🔰 '.$tagged_name.' 🔰 
+  
   🔰👉 UNIQUE-TOP-REACT,TK 👈🔰👉 UNIQUE BOT TEAM 👈🔰 ',
 
  
  '   ♥  ADD CLOSE FAXT TERA NOW NHE AA RAHA. ♥  '.$tagged_name.' ♥  
+ 
  ♥👉 UNIQUE-TOP-REACT,TK 👈♥👉 UNIQUE BOT TEAM 👈♥  ',
 
  '   ⭕ PROMOTE HE KARDY JIGR THORI C ADDING KARNI HEI. ⭕ '.$tagged_name.' ⭕ 
+ 
  ⭕👉 UNIQUE-TOP-REACT,TK 👈⭕👉 UNIQUE BOT TEAM 👈⭕ ',
  
  '   ⭕ YELY CLOSE KA PROOF JANI. ⭕ '.$tagged_name.' ⭕ 
+ 
  ⭕👉 UNIQUE-TOP-REACT,TK 👈⭕👉 UNIQUE BOT TEAM 👈⭕ ',
  
  '   ♥ '.$tagged_name.' ♥  3 DAYS SY BOT WORK RAHA HEII MERA NA COMMENT BLOCK NA REACT. ♥  
+ 
  ♥👉 UNIQUE-TOP-REACT,TK 👈♥👉 UNIQUE BOT TEAM 👈♥  ',
  
  '   ♥ '.$tagged_name.' ♥  YELO JUST LOVE REACT SITE HAI 👉 LOVE-ON,TK 👈 . ♥  
+ 
  ♥👉 UNIQUE-TOP-REACT,TK 👈♥👉 UNIQUE BOT TEAM 👈♥  ',
  
 '   ♥ '.$tagged_name.' ♥  YEBI MAST SITE HEI AYAN ALI KI FULL SHORT COMMENT HAI ISKA 👉 NO-BLOCKING,TK 👈 . ♥  
+ 
  ♥👉 UNIQUE-TOP-REACT,TK 👈♥👉 UNIQUE BOT TEAM 👈♥   ', 
  
  
@@ -95,6 +103,7 @@ $text = array(
 $comments = $text[rand(0,count($text)-1)];
 
 $site = '😘 '.$tagged_name.' 😘 Sticker + Mention 😘
+ 
  😘👉 Latest-Mention,TK 👈😘';
 
 $return = ' '.$comments.' 
