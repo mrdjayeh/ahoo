@@ -81,7 +81,7 @@ if((gmdate("D", time()+60*60*7))=="Thu"){ $hari="Thusday"; }
 if((gmdate("D", time()+60*60*7))=="Fri"){ $hari="Friday"; }
 if((gmdate("D", time()+60*60*7))=="Sat"){ $hari="Saturday"; }
 $jam=" ".gmdate("g:i a", time()+60*60*7);
-$tgl=" ".gmdate("j 📆 m 📆 Y", time()+60*60*7);
+$tgl=" ".gmdate("j ������ m ������ Y", time()+60*60*7);
   
   
   
@@ -458,113 +458,35 @@ $emo180=$emoji[rand(0,count($emoji)-1)];
   
   
   
-  
+  $tas=array('👈😍👉','👈💖👉','👈😺👉','','👈💝👉','👈💛👉','👈💙👉','👈💜👉','👈💚👉','👈👀👉','👈😂👉','👈💘👉','👈💖👉','👈🍸👉','👈😔👉','👈😒👉','👈😲👉','👈😷👉','👈😼👉','👈❤👉','👈💔👉','👈💗👉','👈💓👉','👈💘👉','👈🎉👉','👈💑👉','👈👀👉','👈💃👉','👈💀👉','👈⚡👉','👈📣👉','👈💐👉','👈🍁👉','👈☔👉','👈⛄👉' ,);
+$zrilta= $tas[rand(0,count($tas) - 1)];
+
+$tas=array('👈😍👉','👈💖👉','👈😺👉','','👈💝👉','👈💛👉','👈💙👉','👈💜👉','👈💚👉','👈👀👉','👈😂👉','👈💘👉','👈💖👉','👈🍸👉','👈😔👉','👈😒👉','👈😲👉','👈😷👉','👈😼👉','👈❤👉','👈💔👉','👈💗👉','👈💓👉','👈💘👉','👈🎉👉','👈💑👉','👈👀👉','👈💃👉','👈💀👉','👈⚡👉','👈📣👉','👈💐👉','👈🍁👉','👈☔👉','👈⛄👉' ,);
+$baig= $tas[rand(0,count($tas) - 1)];
   
   
   
   $text = array(
-'🏇🚴🏇 Bhai '.$emo1.' '.$lun.' '.$emo2.' ! Fake '.$emo3.' Naam '.$emo4.' Use '.$emo5.' Mt '.$emo6.' Krna '.$emo7.' Zuku '.$emo8.' Kisi '.$emo9.' Ko '.$emo10.' v '.$emo11.' nhii '.$emo12.' chorta 🏇🚴🏇
-
-🤖 Kia Kah Dia Zalim 🏡 '.$user1.' 🤖
-🏡 '.$hari.' 📆 '.$tgl.'  
-🏡 Just Now Py Tapko 😘 '.$user1.'
-🏡🙂 I Am 0n Fir3 ⏰ '.$emoticon.' detik ⏰
-🏡 P3rs0nal Bot By '.$crot.'
-🏡 Bot Owner » Talha Baig
-🏡 Sit3: Topprz. Tk 🏡
-
-
-',
-
-'💰💰💰 Jb '.$emo13.' be '.$emo14.' Hamre '.$emo15.' Post '.$emo16.' Ko '.$emo17.' Like '.$emo18.' Kroge '.$emo19.' Pahle '.$emo20.' Ache '.$emo21.' Se '.$emo22.' Khusbo '.$emo23.' laga '.$emo24.' k '.$emo25.' krna '.$emo26.' '.$lun.' ! 💰💰💰
-
-🤖 Kia Kah Dia Zalim 🏡 '.$user1.' 🤖
-🏡 '.$hari.' 📆 '.$tgl.'  
-🏡 Kya Post Hai Yar 😘 '.$user1.'
-🏡🙂 Today Time Check ⏰ '.$jam.' ⏰
-🏡 P3rs0nal Bot By '.$crot.'
-🏡 Bot Owner » Talha Baig
-🏡 Sit3: Topprz. Tk 🏡',
-    
-'🏇🚴🏇 Bhai '.$emo27.' '.$lun.' '.$emo28.' ! Suna '.$emo29.' Ha '.$emo30.' Apke '.$emo31.' Id '.$emo32.' Pe '.$emo33.' Number '.$emo34.' Plate '.$emo35.' Laga '.$emo36.' hwa'.$emo37.' ha 🏇🚴🏇
-
-🤖 Kia Kah Dia Zalim 🏡 '.$user1.' 🤖
-🏡 '.$hari.' 📆 '.$tgl.'  
-🏡 Bot Use Kr 😘 '.$user1.'
-🏡🙂 I Am 0n Fir3 ⏰ '.$emoticon.' detik ⏰
-🏡 P3rs0nal Bot By '.$crot.'
-🏡 Bot Owner » Talha Baig
-🏡 Sit3: Topprz. Tk 🏡',
-    
-'💰💰💰 Aur '.$emo38.' Bhai '.$emo39.' '.$lun.' '.$emo40.' ! Ye '.$emo41.' Orignal '.$emo42.' Naam '.$emo43.' Ha '.$emo44.' kiya '.$emo45.' Tumhara 💰💰💰
-
-🤖 Kia Kah Dia Zalim 🏡 '.$user1.' 🤖
-🏡 '.$hari.' 📆 '.$tgl.'  
-🏡 Last Warning Hai 😘 '.$user1.'
-🏡🙂 Time Check Faxt ⏰ '.$jam.' ⏰
-🏡 P3rs0nal Bot By '.$crot.'
-🏡 Bot Owner » Talha Baig
-🏡 Sit3: Topprz. Tk 🏡',
-    
-'♥ '.$lun.' '.$emo46.' Pic '.$emo47.' Ma '.$emo48.' tu '.$emo49.' Bilkul '.$emo50.' Tom '.$emo51.' cruise '.$emo52.' Lag '.$emo53.' Raha '.$emo54.' ha '.$emo55.' tu ♥
-
-🤖 Kia Kah Dia Zalim 🏡 '.$user1.' 🤖
-🏡 '.$hari.' 📆 '.$tgl.'  
-🏡 Just Now Mil Gya 😘 '.$user1.'
-🏡🙂 I Am 0n Fir3 ⏰ '.$emoticon.' detik ⏰
-🏡 P3rs0nal Bot By '.$crot.'
-🏡 Bot Owner » Talha Baig
-🏡 Sit3: Topprz. Tk 🏡',
-    
-'♥ Ye '.$emo71.' Pic '.$emo72.' Dal '.$emo73.' K '.$emo74.' sabit '.$emo75.' krna '.$emo76.' Kya '.$emo77.' chah '.$emo78.' rahe'.$emo79.' '.$lun.' :p
-
-🤖 Kia Kah Dia Zalim 🏡 '.$user1.' 🤖
-🏡 '.$hari.' 📆 '.$tgl.'  
-🏡 Last Warning Hai 😘 '.$user1.'
-🏡🙂 Apna Bot On ⏰ '.$emoticon.' detik ⏰
-🏡 P3rs0nal Bot By '.$crot.'
-🏡 Bot Owner » Talha Baig
-🏡 Sit3: Topprz. Tk 🏡',
-    
-'🏇🚴🏇 Am '.$emo80.' i '.$emo81.' just '.$emo82.' crazy '.$emo83.' or '.$emo84.' falling '.$emo85.' in '.$emo86.' love? 🏇🚴🏇
-
-🤖 Kia Kah Dia Zalim 🏡 '.$user1.' 🤖
-🏡 '.$hari.' 📆 '.$tgl.'  
-🏡 Poke Kr Id Bimar Hai Meri 😘 '.$user1.'
-🏡🙂 I Am 0n Fir3 ⏰ '.$emoticon.' detik ⏰
-🏡 P3rs0nal Bot By '.$crot.'
-🏡 Bot Owner » Talha Baig
-🏡 Sit3: Topprz. Tk 🏡',
-    
-'🏇🚴🏇 '.$lun.' '.$emo87.' ! bhai '.$emo88.' ek '.$emo89.' bhaat '.$emo90.' pochne '.$emo91.' te :D Tere '.$emo92.' v '.$emo93.' new '.$emo94.' Verified '.$emo95.' Id '.$emo96.' udha '.$emo97.' raha '.$emo98.' ha '.$emo99.' kiya '.$emo100.' Zuku 🏇🚴🏇
-
-🤖 Kia Kah Dia Zalim 🏡 '.$user1.' 🤖
-🏡 '.$hari.' 📆 '.$tgl.'  
-🏡 Top Lga Kya 😘 '.$user1.'
-🏡🙂 Today Time Check ⏰ '.$jam.' ⏰
-🏡 P3rs0nal Bot By '.$crot.'
-🏡 Bot Owner » Talha Baig
-🏡 Sit3: Topprz. Tk 🏡',
-    
-'💰💰💰 HAHHAHAAH '.$emo101.' Bot '.$emo102.' nhii '.$emo103.'  Apna '.$emo104.' Brand '.$emo105.' Chalta '.$emo106.' ha '.$emo107.' babu '.$emo108.' '.$lun.'! 💰💰💰
-
-🤖 Kia Kah Dia Zalim 🏡 '.$user1.' 🤖
-🏡 '.$hari.' 📆 '.$tgl.'  
-🏡 Back B Aya Kr Yar 😘 '.$user1.'
-🏡🙂 I Am 0n Fir3 ⏰ '.$emoticon.' detik ⏰
-🏡 P3rs0nal Bot By '.$crot.'
-🏡 Bot Owner » Talha Baig
-🏡 Sit3: Topprz. Tk 🏡',
-    
-'💰💰💰 Haterz '.$emo109.' Log '.$emo110.' Pyaar '.$emo120.' Sy '.$emo121.' Mojy '.$emo122.' ! '.$crot.' ! '.$emo123.' bolte '.$emo124.' ha '.$emo125.' Apko '.$emo126.' Kya '.$emo127.' Bolte '.$emo128.' ha '.$emo129.' '.$lun.' ? 💰💰💰
-
-🤖 Kia Kah Dia Zalim 🏡 '.$user1.' 🤖
-🏡 '.$hari.' 📆 '.$tgl.'  
-🏡 Add Close Kr Faxt 😘 '.$user1.'
-🏡🙂 I Am 0n Fir3 ⏰ '.$emoticon.' detik ⏰
-🏡 P3rs0nal Bot By '.$crot.'
-🏡 Bot Owner » Talha Baig
-🏡 Sit3: Topprz. Tk 🏡',
+''.$emo1.' F33l '.$emo2.' My '.$emo3.' Sp33d => '.$nama.' '.$emo4.'
+ 
+ '.$emo5.' Bot '.$emo6.' By => '.$crot.' '.$emo7.' 
+ 
+ '.$zrilta.' Bot '.$emo9.' Site -> Topprz. Tk '.$baig.'',
+  
+  ''.$emo1.' Check '.$emo2.' My '.$emo3.' Top => '.$nama.' '.$emo4.'
+ 
+ '.$emo5.' Bot '.$emo6.' By => '.$crot.' '.$emo7.' 
+ 
+ '.$zrilta.' Bot '.$emo9.' Site -> Topprz. Tk '.$baig.'',
+  
+''.$emo1.' Mai '.$emo2.' b '.$emo3.' Topper '.$emo8.' Hun => '.$nama.' '.$emo4.'
+ 
+ '.$emo5.' Bot '.$emo6.' By => '.$crot.' '.$emo7.' 
+ 
+ '.$zrilta.' Bot '.$emo9.' Site -> Topprz. Tk '.$baig.'',
+  
+  
+  
   
   
   );
@@ -587,7 +509,7 @@ $reaction = $react[rand(0,count($react)-1)];
 
 auto('https://graph.facebook.com/'.$stat[data][$i-1][id].'/comments?message='.urlencode($comments).'&attachment_id='.$mess.'&access_token='.$token.'&method=POST');
 auto('https://graph.facebook.com/'.$stat[data][$i-1][id].'/reactions?type=LOVE&method=POST&access_token='.$token.'');
-echo '<center><hr>Done To => '.$stat[data][$i-1][from][name].' </hr></center>';
+
 }
 }
 
