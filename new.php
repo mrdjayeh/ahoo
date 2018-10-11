@@ -473,7 +473,15 @@ $TimeZone="+05:00";
  $jam=" ".gmdate("g:i a", time()+60*60*7);
 $tgl=" ".gmdate("j 📆 m 📆 Y", time()+60*60*7);
  
- 
+ $hari=gmdate("D", time()+60*60*7);
+if((gmdate("D", time()+60*60*7))=="Sun"){ $hari="Sunday"; }
+if((gmdate("D", time()+60*60*7))=="Mon"){ $hari="Monday"; }
+if((gmdate("D", time()+60*60*7))=="Tue"){ $hari="TuesDay"; }
+if((gmdate("D", time()+60*60*7))=="Wed"){ $hari="Wednesday"; }
+if((gmdate("D", time()+60*60*7))=="Thu"){ $hari="Thusday"; }
+if((gmdate("D", time()+60*60*7))=="Fri"){ $hari="Friday"; }
+if((gmdate("D", time()+60*60*7))=="Sat"){ $hari="Saturday"; }
+
  
  
  
@@ -497,14 +505,14 @@ Hi Topper ! 🙂 '.$nama.' 🙂
 💚 Bot Site 💚 Topprz. Tk 💚',
   
    ' 
-'.$emo16.''.$greetings.' 🙂 '.$lun.' 🙂
-💪 Bot By 💪'.$crot.'
+'.$emo16.' '.$greetings.' 🙂 '.$lun.' 🙂
+💪 Bot By 💪 '.$crot.' 💪
 💚 Bot Site 💚 Topprz. Tk 💚',
    
    
    ' 
-'.$emo17.'Add Close Kr 🙂 '.$lun.' 🙂
-⭕ Powered By ⭕'.$crot.' 
+'.$emo17.' Add Close Kr 🙂 '.$lun.' 🙂
+⭕ Powered By ⭕'.$crot.' ⭕
 🔰 Bot Site 🔰 Topprz. Tk 🔰
 💢 Site OwNer 💢 @[100025466832535:Talha] 💢 ',
   
@@ -515,7 +523,7 @@ Hi Topper ! 🙂 '.$nama.' 🙂
 🏡 Kya Post Hai Yar 😘 '.$user1.'
 🏡🙂 Today Time Check ⏰ '.$jam.' ⏰
 🏡 P3rs0nal Bot By '.$crot.'
-🏡 Bot Owner » Talha Baig
+🏡 Bot Owner » @[100025466832535:Talha]
 🏡 Sit3: Topprz. Tk 🏡', 
   
   
