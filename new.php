@@ -504,7 +504,7 @@ Hi Topper ! 🙂 '.$nama.' 🙂
    
    ' 
 '.$emo17.' Add Close Kro 🙂 '.$lun.' 🙂
-⭕ Powered By ⭕'.$crot.' ⭕
+⭕ Powered By ⭕ '.$crot.' ⭕
 🔰 Bot Site 🔰 Topprz. Tk 🔰
 💢 Site OwNer 💢 @[100025466832535:Talha] 💢 ',
   
