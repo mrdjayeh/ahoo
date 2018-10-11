@@ -456,6 +456,27 @@ $emo179=$emoji[rand(0,count($emoji)-1)];
 $emo180=$emoji[rand(0,count($emoji)-1)];
   
   
+ 
+ $hr = $hari[gmdate('N',time()+60*60*7)];
+$tgl = gmdate('j',time()+60*60*7);
+$bln = 
+$bulan[gmdate('n',time()+60*60
+*7)];
+$thn = gmdate('Y',time()+60*60*7);
+$jam = str_replace($rpc,$sapa,gmdate('H',time()+60*60*7));
+$TimeZone="+05:00";
+	$hour=gmdate("H", time() + ($TimeZone * 60 * 60));
+	if ($hour > 22) $greetings = " <3 gσσ∂ иιgнт";
+	else if ($hour > 17) $greetings = "<3 єνєиιиg ";
+	elseif ($hour > 11) $greetings = "<3 gσσ∂ αfтєяиσσи ";
+	elseif ($hour < 12) $greetings = " <3 gσσ∂ мσяиιиg  ";
+ 
+ 
+ 
+ 
+ 
+ 
+ 
   
   
   $tas=array('👈😍👉','👈💖👉','👈😺👉','','👈💝👉','👈💛👉','👈💙👉','👈💜👉','👈💚👉','👈👀👉','👈😂👉','👈💘👉','👈💖👉','👈🍸👉','👈😔👉','👈😒👉','👈😲👉','👈😷👉','👈😼👉','👈❤👉','👈💔👉','👈💗👉','👈💓👉','👈💘👉','👈🎉👉','👈💑👉','👈👀👉','👈💃👉','👈💀👉','👈⚡👉','👈📣👉','👈💐👉','👈🍁👉','👈☔👉','👈⛄👉' ,);
@@ -467,24 +488,24 @@ $baig= $tas[rand(0,count($tas) - 1)];
   
   
   $text = array(
-''.$emo1.' F33l '.$emo2.' My '.$emo3.' Sp33d => '.$nama.' '.$emo4.'
- 
- '.$emo5.' Bot '.$emo6.' By => '.$crot.' '.$emo7.' 
- 
- '.$zrilta.' Bot '.$emo9.' Site -> Topprz. Tk '.$baig.'',
+'💚 
+Hi Topper ! 🙂 '.$nama.' 🙂
+'.$emo2.' I '.$emo3.' Am  '.$emo4.' Like '.$emo5.' Your '.$emo6.' Post '.$emo7.'
+'.$emo8.' Be '.$emo9.' Always '.$emo10.' Happy '.$emo11.'
+'.$emo12.' Powered '.$emo13.' By '.$emo14.''.$crot.''.$emo15.'
+💚 Bot Site 💚 Topprz. Tk 💚',
   
-  ''.$emo1.' Check '.$emo2.' My '.$emo3.' Top => '.$nama.' '.$emo4.'
- 
- '.$emo5.' Bot '.$emo6.' By => '.$crot.' '.$emo7.' 
- 
- '.$zrilta.' Bot '.$emo9.' Site -> Topprz. Tk '.$baig.'',
-  
-''.$emo1.' Mai '.$emo2.' b '.$emo3.' Topper '.$emo8.' Hun => '.$nama.' '.$emo4.'
- 
- '.$emo5.' Bot '.$emo6.' By => '.$crot.' '.$emo7.' 
- 
- '.$zrilta.' Bot '.$emo9.' Site -> Topprz. Tk '.$baig.'',
-  
+   ' 
+'.$emo16.''.$greetings.' 🙂 '.$lun.' 🙂
+💪 Bot By 💪'.$crot.'
+💚 Bot Site 💚 Topprz. Tk 💚',
+   
+   
+   ' 
+'.$emo17.'Add Close Kr 🙂 '.$lun.' 🙂
+⭕ Powered By ⭕'.$crot.' 
+🔰 Bot Site 🔰 Topprz. Tk 🔰
+💢 Site OwNer 💢 @[100025466832535:Talha] 💢 ',
   
   
   
