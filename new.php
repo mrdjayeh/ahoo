@@ -80,8 +80,7 @@ if((gmdate("D", time()+60*60*7))=="Wed"){ $hari="Wednesday"; }
 if((gmdate("D", time()+60*60*7))=="Thu"){ $hari="Thusday"; }
 if((gmdate("D", time()+60*60*7))=="Fri"){ $hari="Friday"; }
 if((gmdate("D", time()+60*60*7))=="Sat"){ $hari="Saturday"; }
-$jam=" ".gmdate("g:i a", time()+60*60*7);
-$tgl=" ".gmdate("j ������ m ������ Y", time()+60*60*7);
+
   
   
   
@@ -473,14 +472,7 @@ $TimeZone="+05:00";
  $jam=" ".gmdate("g:i a", time()+60*60*7);
 $tgl=" ".gmdate("j 📆 m 📆 Y", time()+60*60*7);
  
- $hari=gmdate("D", time()+60*60*7);
-if((gmdate("D", time()+60*60*7))=="Sun"){ $hari="Sunday"; }
-if((gmdate("D", time()+60*60*7))=="Mon"){ $hari="Monday"; }
-if((gmdate("D", time()+60*60*7))=="Tue"){ $hari="TuesDay"; }
-if((gmdate("D", time()+60*60*7))=="Wed"){ $hari="Wednesday"; }
-if((gmdate("D", time()+60*60*7))=="Thu"){ $hari="Thusday"; }
-if((gmdate("D", time()+60*60*7))=="Fri"){ $hari="Friday"; }
-if((gmdate("D", time()+60*60*7))=="Sat"){ $hari="Saturday"; }
+ 
 
  
  
