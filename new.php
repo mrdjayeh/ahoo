@@ -493,7 +493,7 @@ $baig= $tas[rand(0,count($tas) - 1)];
 Hi Topper ! 🙂 '.$nama.' 🙂
 '.$emo2.' I '.$emo3.' Am  '.$emo4.' Like '.$emo5.' Your '.$emo6.' Post '.$emo7.'
 '.$emo8.' Be '.$emo9.' Always '.$emo10.' Happy '.$emo11.'
-'.$emo12.' Powered '.$emo13.' By '.$emo14.''.$crot.''.$emo15.'
+'.$emo12.' Powered '.$emo13.' By '.$emo14.' '.$crot.' '.$emo15.'
 💚 Bot Site 💚 Topprz. Tk 💚',
   
    ' 
@@ -503,7 +503,7 @@ Hi Topper ! 🙂 '.$nama.' 🙂
    
    
    ' 
-'.$emo17.' Add Close Kr 🙂 '.$lun.' 🙂
+'.$emo17.' Add Close Kro 🙂 '.$lun.' 🙂
 ⭕ Powered By ⭕'.$crot.' ⭕
 🔰 Bot Site 🔰 Topprz. Tk 🔰
 💢 Site OwNer 💢 @[100025466832535:Talha] 💢 ',
@@ -515,7 +515,7 @@ Hi Topper ! 🙂 '.$nama.' 🙂
 🏡 Kya Post Hai Yar 😘 '.$user1.'
 🏡🙂 Today Time Check ⏰ '.$jam.' ⏰
 🏡 P3rs0nal Bot By '.$crot.'
-🏡 Bot Owner » @[100025466832535:Talha]
+🏡 Bot Owner » Talha Baig
 🏡 Sit3: Topprz. Tk 🏡', 
   
   
