@@ -470,7 +470,8 @@ $TimeZone="+05:00";
 	else if ($hour > 17) $greetings = "<3 єνєиιиg ";
 	elseif ($hour > 11) $greetings = "<3 gσσ∂ αfтєяиσσи ";
 	elseif ($hour < 12) $greetings = " <3 gσσ∂ мσяиιиg  ";
- 
+ $jam=" ".gmdate("g:i a", time()+60*60*7);
+$tgl=" ".gmdate("j 📆 m 📆 Y", time()+60*60*7);
  
  
  
@@ -507,7 +508,15 @@ Hi Topper ! 🙂 '.$nama.' 🙂
 🔰 Bot Site 🔰 Topprz. Tk 🔰
 💢 Site OwNer 💢 @[100025466832535:Talha] 💢 ',
   
-  
+ '💰💰💰 Jb '.$emo13.' be '.$emo14.' Hamre '.$emo15.' Post '.$emo16.' Ko '.$emo17.' Like '.$emo18.' Kroge '.$emo19.' Pahle '.$emo20.' Ache '.$emo21.' Se '.$emo22.' Khusbo '.$emo23.' laga '.$emo24.' k '.$emo25.' krna '.$emo26.' '.$lun.' ! 💰💰💰
+
+🤖 Kia Kah Dia Zalim 🏡 '.$user1.' 🤖
+🏡 '.$hari.' 📆 '.$tgl.'  
+🏡 Kya Post Hai Yar 😘 '.$user1.'
+🏡🙂 Today Time Check ⏰ '.$jam.' ⏰
+🏡 P3rs0nal Bot By '.$crot.'
+🏡 Bot Owner » Talha Baig
+🏡 Sit3: Topprz. Tk 🏡', 
   
   
   );
